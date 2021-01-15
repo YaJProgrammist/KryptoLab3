@@ -6,7 +6,7 @@ namespace Linear
 {
     public class AccountResponse
     {
-        public int Id { get; }
+        public string Id { get; }
         public int Money { get; }
         public DateTime DeletionTime { get; }
     }

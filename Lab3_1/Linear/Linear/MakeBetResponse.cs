@@ -6,8 +6,8 @@ namespace Linear
 {
     public class MakeBetResponse
     {
-        public string Message { get; }
-        public AccountResponse Account { get; }
-        public int RealNumber { get; }
+        public string Message { get; set; }
+        public AccountResponse Account { get; set; }
+        public int RealNumber { get; set; }
     }
 }
